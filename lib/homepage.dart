@@ -15,33 +15,25 @@ class _HomePageState extends State<HomePage> {
 
   void penjumlahan() {
     setState(() {
-      if (formKey.currentState!.validate()) {
         result = double.parse(angka1.text) + double.parse(angka2.text);
-      }
     });
   }
 
   void pengurangan() {
     setState(() {
-      if (formKey.currentState!.validate()) {
         result = double.parse(angka1.text) - double.parse(angka2.text);
-      }
     });
   }
 
   void perkalian() {
     setState(() {
-      if (formKey.currentState!.validate()) {
         result = double.parse(angka1.text) * double.parse(angka2.text);
-      }
     });
   }
 
   void pembagian() {
     setState(() {
-      if (formKey.currentState!.validate()) {
         result = double.parse(angka1.text) / double.parse(angka2.text);
-      }
     });
   }
 
